@@ -1,0 +1,59 @@
+
+.msg-list {
+    max-width: 270px;
+}
+.unseen-messages {
+    background: rgb(246,216,230);
+    background: linear-gradient(90deg, rgba(246,216,230,1) 37%, rgba(236,231,236,1) 62%);
+}
+.seen-messages {
+    background: rgb(255, 255, 255);
+
+}
+
+
+/* message */
+.message {
+    padding: 20px 10px 15px 10px;
+	font-size: 1em;
+    color: #666666;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    height: 600px;
+}
+
+
+.message h2 {
+	margin-top: 0;
+	padding-bottom: 8px;
+}
+
+
+.name, .subject, .time {
+    font-size: 1em;
+    color: #666666;
+    text-decoration: none;
+}
+.name:hover, .subject:hover {
+    font-size: 1em;
+    color: #666666;
+    text-decoration: none;
+}
+.inbox-icon {
+	color: #186f8a;
+}
+
+.booked {
+	color: #e74c3c;
+}
+.trash {
+	color: #e46eca;
+}
+
+.none-booked {
+	color: #bbb2b0;
+}
+
+
+
